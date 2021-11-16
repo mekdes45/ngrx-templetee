@@ -13,10 +13,12 @@ import * as fromAuth from './store/reducers/auth/auth.reducer';
 import { EffectsModule } from '@ngrx/effects';
 import { AuthEffects } from './store/effects/auth/auth.effects';
 import { UserEffects } from './store/effects/user/user.effects';
+import { UsersComponent } from './component/users/users.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    UsersComponent
   ],
   imports: [
     BrowserModule,
