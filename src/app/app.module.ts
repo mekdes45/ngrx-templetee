@@ -14,11 +14,13 @@ import { EffectsModule } from '@ngrx/effects';
 import { AuthEffects } from './store/effects/auth/auth.effects';
 import { UserEffects } from './store/effects/user/user.effects';
 import { UsersComponent } from './component/users/users.component';
+import { PagesComponent } from './component/pages/pages.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    UsersComponent
+    UsersComponent,
+    PagesComponent
   ],
   imports: [
     BrowserModule,
